@@ -63,7 +63,7 @@ export default function Component() {
           <div className="mt-4">
             <h3 className="font-semibold mb-2">Skills</h3>
             <div className="flex flex-wrap gap-2">
-              {["React", "Node.js", "TypeScript", "Next.js", "GraphQL"].map(
+              {["React", "Node.js", "TypeScript", "Next.js", "Minecraft"].map(
                 (skill) => (
                   <Badge key={skill} variant="secondary">
                     {skill}
